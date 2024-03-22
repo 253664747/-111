@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  header{
+    background: linear-gradient(#9e6b8b,#8779a4);
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
+  .Form-Profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+  }
+  
+  .profile{
+    box-shadow: 0 0 25px 5px rgba(1 1 1/15%);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+  }
+  
+  .profile .img-profile{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  
+  .profile .img-profile img{
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 5px rgba(1 1 1/15%) ;
+    background: linear-gradient(rgb(135, 121, 164),#9e6b8b);
+  }
+  
+  .input{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 10px 0px;
+  }
+  
+  .input input{
+    text-align: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    border: solid #8779a4 2px;
+    font-size: 16px;
+  }
+  
+  .input  label{
+    margin: 5px 0px;
+  }
+  
+  .input .option{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input .radio{
+    display: flex;
+    box-shadow: 0px 0px 1px 1px rgba(1 1 1/15%);
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100% ;
+    margin:  0px 4px;
+  }
+  
+  
+  
+  .input .radio label{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .input .radio input[type="radio"]:checked + label{
+    color: #0075ff;
+  }
+  
+  
